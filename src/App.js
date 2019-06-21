@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Login from './screens/login';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Electron Desktop Starter Template</h1>
+        <Login/>
       </div>
     )
   }
